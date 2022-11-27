@@ -127,7 +127,7 @@ const Conta = () => {
                 <Botao style={Styles.botao}
                        label="Termos"
                        action={fadeIn}
-                       cor={colors.botaoCinza}/>
+                       cor={colors.botaoVerde}/>
 
                        
             </View>
@@ -139,7 +139,7 @@ const Conta = () => {
                     }
                 ]}
             >
-                <Text style={Styles.paragraph}>Ao clicar no botão cadastrar, você confirma que está ciente e aceita os
+                <Text style={Styles.paragraph}>Ao clicar no botão cadastrar, você confirma que aceita os
                     termos de serviço.</Text>
 
             </Animated.View>

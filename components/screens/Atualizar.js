@@ -49,7 +49,7 @@ const Atualizar = ({navigation}) => {
     return (
 
         <View style={Styles.container}>
-            <Text style={Styles.text}>Aualizar Cadastro de Usuário</Text>
+            <Text style={Styles.text}>Atualizar Cadastro de Usuário</Text>
 
             <Input style={Styles.input}
                    placeholder="Nome"
@@ -91,6 +91,12 @@ const Atualizar = ({navigation}) => {
                    cor={colors.botaoAzul}
                    label="Atualizar"
                    action={valida}
+            />
+
+            <Botao style={Styles.botao}
+                   cor={colors.botaoCinza}
+                   label="Página Inicial"
+                   action={() => navigation.navigate("Home")}
             />
 
 

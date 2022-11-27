@@ -2,7 +2,7 @@ import * as React from 'react';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import Home from "./Home";
 import Ionicons from 'react-native-vector-icons/Ionicons';
-import Tela2 from "../Tela2/Tela2";
+import Ajuda from "../Tela2/Ajuda";
 
 
 const HomeTab = () => {
@@ -21,7 +21,7 @@ const HomeTab = () => {
                         iconName = "home-outline"
 
 
-                    } else if (route.name === 'Tela 2') {
+                    } else if (route.name === 'Ajuda') {
                         iconName = "newspaper"
                     }
                     return <Ionicons name={iconName} size={size} color={color}/>;
@@ -31,7 +31,7 @@ const HomeTab = () => {
                 tabBarInactiveTintColor: 'gray',
             })}>
             <Tab.Screen name="Tela Inicial" component={Home}/>
-            <Tab.Screen name={"Tela 2"} component={Tela2} options={{header: () => null}}/>
+            <Tab.Screen name={"Ajuda"} component={Ajuda} options={{header: () => null}}/>
 
         </Tab.Navigator>
     );

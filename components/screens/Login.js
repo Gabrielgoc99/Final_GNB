@@ -1,17 +1,13 @@
 import * as React from 'react';
 import {useEffect, useState} from 'react';
-import { Animated, Text, KeyboardAvoidingView, TouchableOpacity } from 'react-native';
+import { Animated, Text, View, KeyboardAvoidingView, TouchableOpacity } from 'react-native';
 import Input from "../Input";
 import Botao from "../Botao";
-import Home from "./Home";
 import Styles from "../Styles";
 import {colors} from "../Colors";
-import {tamanhos} from '../Tamanhos';
 import {auth} from '../../src/config/firebaseConfig';
 import {signInWithEmailAndPassword, onAuthStateChanged} from "firebase/auth";
 import {useIsFocused} from '@react-navigation/native';
-import View from 'react-native-web/dist/exports/View';
-
 
 const Login = ({navigation}) => {
 
@@ -134,4 +130,3 @@ const Login = ({navigation}) => {
 }
 
 export default Login;
-

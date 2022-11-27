@@ -45,7 +45,7 @@ const CameraApp = () => {
     // Tirando uma foto
     const takePhoto = async () => {
 
-        alert("oi")
+        alert("Photo!")
     }
 
     // Salvando a foto
@@ -55,7 +55,7 @@ const CameraApp = () => {
     return (
         <View style={styles.container}>
             <View style={styles.viewText}>
-                <Text style={styles.text}>App Camera e Map!</Text>
+                <Text style={styles.text}>Camera</Text>
             </View>
             <Camera
                 style={styles.camera}
@@ -103,6 +103,11 @@ const CameraApp = () => {
                 </Modal>
                 }
             </Camera>
+            <Botao style={Styles.botao}
+                   cor={colors.botaoCinza}
+                   label="Página Inicial"
+                   action={() => navigation.navigate("HomeTela2")}
+            />
         </View>
     );
 }

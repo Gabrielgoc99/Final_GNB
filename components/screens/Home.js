@@ -65,26 +65,23 @@ const Home = ({navigation}) => {
 
 
                 <Text style={Styles.paragraph}>Bem vindo ao Goliath National Bank!</Text>
+
+                <Animated.Image source={require("../../assets/Goliath_Tower.png")}
+                        style={{
+                            alignSelf: 'center',
+                            width: larguraTower,
+                            height: alturaTower,                            
+                         }}
+                />
                 
                 <Botao style={Styles.botao}
                        cor={colors.botaoAzul}
                        label="Abrir Conta"
                        action={() => navigation.navigate("Conta")}
-                />
-                <Animated.Image source={require("../../assets/Goliath_Tower.png")}
-                                style={{
-                                    alignSelf: 'center',
-                                    width: larguraTower,
-                                    height: alturaTower,
-                                    marginBottom: 10,
-                                    marginTop: 10
-                                }}
-                />
-
-
+                />                
 
                 <Botao style={Styles.botao}
-                       cor={colors.botaoAzul}
+                       cor={colors.botaoCinza}
                        label="Gerenciar Perfil"
                        action={() => navigation.navigate("Perfil")}
                 />
