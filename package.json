@@ -1,0 +1,45 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@firebase/app": "^0.8.2",
+    "@react-native-community/slider": "4.1.12",
+    "@react-native-picker/picker": "2.2.1",
+    "@react-navigation/bottom-tabs": "^6.3.1",
+    "@react-navigation/drawer": "^6.5.0",
+    "@react-navigation/native": "6.0.0",
+    "@react-navigation/native-stack": "^6.6.2",
+    "@sefailyasoz/react-carousel": "*",
+    "@wecraftapps/react-native-simple-carousel": "*",
+    "expo": "~44.0.0",
+    "expo-media-library": "^15.0.0",
+    "expo-status-bar": "~1.2.0",
+    "firebase": "^9.12.1",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-hook-form": "^7.38.0",
+    "react-icons": "4.4.0",
+    "react-native": "^0.70.3",
+    "react-native-gesture-handler": "~2.1.0",
+    "react-native-image-carousel-ks": "*",
+    "react-native-paper": "^4.12.5",
+    "react-native-reanimated": "^2.11.0",
+    "react-native-safe-area-context": "3.3.2",
+    "react-native-screens": "~3.10.1",
+    "react-native-vector-icons": "*",
+    "react-native-web": "*"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@mdi/js": "^7.0.96",
+    "expo-camera": "^13.0.0",
+    "react-native-modalize": "^2.1.1"
+  },
+  "private": true
+}
